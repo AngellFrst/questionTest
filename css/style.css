@@ -1,1 +1,100 @@
+ /* Стили для скрытия элементов */
+ .hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+  background: rgb(245, 245, 245);
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#questionContainer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 20px #0000002b;
+}
+
+#questionText {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#question-container {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkbox-label input {
+  margin-right: 10px;
+}
+
+
+
+#submit-button {
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 50px;
+  background: rgb(164, 120, 247);
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  border-radius: 15px;
+  transition: .3s ;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+#submit-button:hover {
+  background: rgb(85, 88, 245);
+}
+
+#results-text {
+  border: 1px solid black;
+  background: rgb(164, 120, 247);
+  color: white;
+  font-size: 23px;
+  padding: 15px;
+}
+
+#results-container {
+  text-align: center;
+  list-style-type: lower-alpha;
+}
+
+.result-message {
+  margin-top: 5px;
+  font-weight: bold;
+ 
+}
 
